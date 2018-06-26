@@ -1,5 +1,0 @@
-F:\Final Project\ShareMarket_Game\ShareMarket.Data\bin\ShareMarket.Data.dll.config
-F:\Final Project\ShareMarket_Game\ShareMarket.Data\bin\ShareMarket.Data.dll
-F:\Final Project\ShareMarket_Game\ShareMarket.Data\bin\ShareMarket.Data.pdb
-F:\Final Project\ShareMarket_Game\ShareMarket.Data\obj\Debug\ShareMarket.Data.dll
-F:\Final Project\ShareMarket_Game\ShareMarket.Data\obj\Debug\ShareMarket.Data.pdb
