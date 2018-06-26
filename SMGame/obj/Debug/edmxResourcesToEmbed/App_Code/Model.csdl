@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ShareMarketModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Company">
+    <Key>
+      <PropertyRef Name="CompanyID" />
+    </Key>
+    <Property Name="CompanyID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CompanyName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SectorID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sector">
+    <Key>
+      <PropertyRef Name="SectorID" />
+    </Key>
+    <Property Name="SectorID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SectorName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SMUser">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="BankAccount">
+    <Key>
+      <PropertyRef Name="SectorID" />
+      <PropertyRef Name="CompanyID" />
+      <PropertyRef Name="StockQuantity" />
+      <PropertyRef Name="StockPrice" />
+      <PropertyRef Name="TotalAmount" />
+      <PropertyRef Name="PxnTypeByeSell" />
+      <PropertyRef Name="Date" />
+    </Key>
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="SectorID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CompanyID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="StockQuantity" Type="Int32" Nullable="false" />
+    <Property Name="StockPrice" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="TotalAmount" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="PxnTypeByeSell" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="StockMarket">
+    <Key>
+      <PropertyRef Name="SectorID" />
+      <PropertyRef Name="CompanyID" />
+      <PropertyRef Name="StockQuantity" />
+      <PropertyRef Name="StockPrice" />
+      <PropertyRef Name="Date" />
+    </Key>
+    <Property Name="SectorID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CompanyID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="StockQuantity" Type="Int32" Nullable="false" />
+    <Property Name="StockPrice" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="UserStock">
+    <Key>
+      <PropertyRef Name="SectorID" />
+      <PropertyRef Name="CompanyID" />
+      <PropertyRef Name="StockQuantity" />
+      <PropertyRef Name="StockPrice" />
+      <PropertyRef Name="TotalAmount" />
+    </Key>
+    <Property Name="UserID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SectorID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CompanyID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="StockQuantity" Type="Int32" Nullable="false" />
+    <Property Name="StockPrice" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="TotalAmount" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserStorkMatket">
+    <Key>
+      <PropertyRef Name="UserID" />
+      <PropertyRef Name="SectorID" />
+      <PropertyRef Name="CompanyID" />
+      <PropertyRef Name="StockQuantity" />
+      <PropertyRef Name="StockPrice" />
+    </Key>
+    <Property Name="UserID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SectorID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CompanyID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="StockQuantity" Type="Int32" Nullable="false" />
+    <Property Name="StockPrice" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ShareMarketEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Companies" EntityType="Self.Company" />
+    <EntitySet Name="Sectors" EntityType="Self.Sector" />
+    <EntitySet Name="SMUsers" EntityType="Self.SMUser" />
+    <EntitySet Name="BankAccounts" EntityType="Self.BankAccount" />
+    <EntitySet Name="StockMarkets" EntityType="Self.StockMarket" />
+    <EntitySet Name="UserStocks" EntityType="Self.UserStock" />
+    <EntitySet Name="UserStorkMatkets" EntityType="Self.UserStorkMatket" />
+  </EntityContainer>
+</Schema>

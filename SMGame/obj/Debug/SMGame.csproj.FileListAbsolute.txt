@@ -1,0 +1,255 @@
+D:\TEMP\SMGame\SMGame\bin\SMGame.dll.config
+D:\TEMP\SMGame\SMGame\bin\SMGame.dll
+D:\TEMP\SMGame\SMGame\bin\SMGame.pdb
+D:\TEMP\SMGame\SMGame\bin\Antlr3.Runtime.dll
+D:\TEMP\SMGame\SMGame\bin\AspNet.ScriptManager.bootstrap.dll
+D:\TEMP\SMGame\SMGame\bin\AspNet.ScriptManager.jQuery.dll
+D:\TEMP\SMGame\SMGame\bin\EntityFramework.dll
+D:\TEMP\SMGame\SMGame\bin\EntityFramework.SqlServer.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Core.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.Security.Cookies.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.Security.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.Security.Facebook.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.Security.Google.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.Security.OAuth.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.Security.Twitter.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.ScriptManager.WebForms.dll
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Web.Infrastructure.dll
+D:\TEMP\SMGame\SMGame\bin\Newtonsoft.Json.dll
+D:\TEMP\SMGame\SMGame\bin\Owin.dll
+D:\TEMP\SMGame\SMGame\bin\System.Web.Optimization.dll
+D:\TEMP\SMGame\SMGame\bin\System.Web.Providers.dll
+D:\TEMP\SMGame\SMGame\bin\WebGrease.dll
+D:\TEMP\SMGame\SMGame\bin\Newtonsoft.Json.xml
+D:\TEMP\SMGame\SMGame\bin\System.Web.Optimization.xml
+D:\TEMP\SMGame\SMGame\bin\Antlr3.Runtime.pdb
+D:\TEMP\SMGame\SMGame\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\TEMP\SMGame\SMGame\bin\EntityFramework.xml
+D:\TEMP\SMGame\SMGame\bin\EntityFramework.SqlServer.xml
+D:\TEMP\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Core.xml
+D:\TEMP\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\TEMP\SMGame\SMGame\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.xml
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.Security.xml
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.Security.Facebook.xml
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.Security.Cookies.xml
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.Security.Google.xml
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.Security.Twitter.xml
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\TEMP\SMGame\SMGame\bin\Microsoft.Owin.Security.OAuth.xml
+D:\TEMP\SMGame\SMGame\obj\Debug\SMGame.dll
+D:\TEMP\SMGame\SMGame\obj\Debug\SMGame.pdb
+D:\TEMP\SMGame\SMGame\obj\Debug\SMGame.csprojResolveAssemblyReference.cache
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\SMGame.dll.config
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\SMGame.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\SMGame.pdb
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Antlr3.Runtime.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\EntityFramework.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\EntityFramework.SqlServer.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.Security.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Newtonsoft.Json.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Owin.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\System.Web.Optimization.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\System.Web.Providers.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\WebGrease.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Newtonsoft.Json.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\System.Web.Optimization.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Antlr3.Runtime.pdb
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\EntityFramework.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\EntityFramework.SqlServer.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.Security.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\obj\Debug\SMGame.csprojResolveAssemblyReference.cache
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\obj\Debug\SMGame.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\SMGame\SMGame\obj\Debug\SMGame.pdb
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\SMGame.dll.config
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\SMGame.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\SMGame.pdb
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Antlr3.Runtime.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\EntityFramework.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\EntityFramework.SqlServer.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.Security.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Newtonsoft.Json.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Owin.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\System.Web.Optimization.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\System.Web.Providers.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\WebGrease.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Newtonsoft.Json.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\System.Web.Optimization.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Antlr3.Runtime.pdb
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\EntityFramework.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\EntityFramework.SqlServer.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.Security.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\obj\Debug\SMGame.csprojResolveAssemblyReference.cache
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\obj\Debug\SMGame.dll
+C:\Users\Sameera Tharaka\Desktop\Latest\SMGame\SMGame\obj\Debug\SMGame.pdb
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\SMGame.dll.config
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\SMGame.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\SMGame.pdb
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Antlr3.Runtime.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\EntityFramework.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\EntityFramework.SqlServer.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.Security.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Newtonsoft.Json.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Owin.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\System.Web.Optimization.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\System.Web.Providers.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\WebGrease.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Newtonsoft.Json.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\System.Web.Optimization.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Antlr3.Runtime.pdb
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\EntityFramework.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\EntityFramework.SqlServer.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.Security.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\obj\Debug\SMGame.csprojResolveAssemblyReference.cache
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\obj\Debug\SMGame.dll
+C:\Users\Kavindra Perera\Desktop\Madhura\Latest Update\Updated\SMGame\SMGame\obj\Debug\SMGame.pdb
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\SMGame.dll.config
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\SMGame.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\SMGame.pdb
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Antlr3.Runtime.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\EntityFramework.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\EntityFramework.SqlServer.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.Security.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Newtonsoft.Json.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Owin.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\System.Web.Optimization.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\System.Web.Providers.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\WebGrease.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Newtonsoft.Json.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\System.Web.Optimization.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Antlr3.Runtime.pdb
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\EntityFramework.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\EntityFramework.SqlServer.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.Security.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\obj\Debug\SMGame.csprojResolveAssemblyReference.cache
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\obj\Debug\SMGame.dll
+C:\Users\Sameera Tharaka\Desktop\GIT\Sameera\SMGame\SMGame\obj\Debug\SMGame.pdb

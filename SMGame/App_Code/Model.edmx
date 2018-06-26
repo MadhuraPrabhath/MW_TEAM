@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ShareMarketModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'ShareMarket.dbo.BankAccount' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="BankAccount">
+          <Key>
+            <PropertyRef Name="SectorID" />
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="StockQuantity" />
+            <PropertyRef Name="StockPrice" />
+            <PropertyRef Name="TotalAmount" />
+            <PropertyRef Name="PxnTypeByeSell" />
+            <PropertyRef Name="Date" />
+          </Key>
+          <Property Name="UserID" Type="int" />
+          <Property Name="SectorID" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="CompanyID" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="StockQuantity" Type="int" Nullable="false" />
+          <Property Name="StockPrice" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="TotalAmount" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="PxnTypeByeSell" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Date" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Company">
+          <Key>
+            <PropertyRef Name="CompanyID" />
+          </Key>
+          <Property Name="CompanyID" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="CompanyName" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="SectorID" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'ShareMarket.dbo.LoginUser' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="LoginUser">
+          <Property Name="UserID" Type="varchar" MaxLength="20" />
+          <Property Name="Date" Type="date" />
+        </EntityType>-->
+        <EntityType Name="Sectors">
+          <Key>
+            <PropertyRef Name="SectorID" />
+          </Key>
+          <Property Name="SectorID" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="SectorName" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SMUser">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="varchar" MaxLength="50" />
+          <Property Name="Password" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'ShareMarket.dbo.StockMarket' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="StockMarket">
+          <Key>
+            <PropertyRef Name="SectorID" />
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="StockQuantity" />
+            <PropertyRef Name="StockPrice" />
+            <PropertyRef Name="Date" />
+          </Key>
+          <Property Name="SectorID" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="CompanyID" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="StockQuantity" Type="int" Nullable="false" />
+          <Property Name="StockPrice" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="Date" Type="date" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'ShareMarket.dbo.UserStock' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="UserStock">
+          <Key>
+            <PropertyRef Name="SectorID" />
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="StockQuantity" />
+            <PropertyRef Name="StockPrice" />
+            <PropertyRef Name="TotalAmount" />
+          </Key>
+          <Property Name="UserID" Type="varchar" MaxLength="20" />
+          <Property Name="SectorID" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="CompanyID" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="StockQuantity" Type="int" Nullable="false" />
+          <Property Name="StockPrice" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="TotalAmount" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'ShareMarket.dbo.UserStorkMatket' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="UserStorkMatket">
+          <Key>
+            <PropertyRef Name="UserID" />
+            <PropertyRef Name="SectorID" />
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="StockQuantity" />
+            <PropertyRef Name="StockPrice" />
+          </Key>
+          <Property Name="UserID" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="SectorID" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="CompanyID" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="StockQuantity" Type="int" Nullable="false" />
+          <Property Name="StockPrice" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="ShareMarketModelStoreContainer">
+          <EntitySet Name="Company" EntityType="Self.Company" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Sectors" EntityType="Self.Sectors" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SMUser" EntityType="Self.SMUser" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BankAccount" EntityType="Self.BankAccount" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [BankAccount].[UserID] AS [UserID], 
+    [BankAccount].[SectorID] AS [SectorID], 
+    [BankAccount].[CompanyID] AS [CompanyID], 
+    [BankAccount].[StockQuantity] AS [StockQuantity], 
+    [BankAccount].[StockPrice] AS [StockPrice], 
+    [BankAccount].[TotalAmount] AS [TotalAmount], 
+    [BankAccount].[PxnTypeByeSell] AS [PxnTypeByeSell], 
+    [BankAccount].[Date] AS [Date]
+    FROM [dbo].[BankAccount] AS [BankAccount]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="StockMarket" EntityType="Self.StockMarket" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [StockMarket].[SectorID] AS [SectorID], 
+    [StockMarket].[CompanyID] AS [CompanyID], 
+    [StockMarket].[StockQuantity] AS [StockQuantity], 
+    [StockMarket].[StockPrice] AS [StockPrice], 
+    [StockMarket].[Date] AS [Date]
+    FROM [dbo].[StockMarket] AS [StockMarket]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="UserStock" EntityType="Self.UserStock" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [UserStock].[UserID] AS [UserID], 
+    [UserStock].[SectorID] AS [SectorID], 
+    [UserStock].[CompanyID] AS [CompanyID], 
+    [UserStock].[StockQuantity] AS [StockQuantity], 
+    [UserStock].[StockPrice] AS [StockPrice], 
+    [UserStock].[TotalAmount] AS [TotalAmount]
+    FROM [dbo].[UserStock] AS [UserStock]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="UserStorkMatket" EntityType="Self.UserStorkMatket" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [UserStorkMatket].[UserID] AS [UserID], 
+    [UserStorkMatket].[SectorID] AS [SectorID], 
+    [UserStorkMatket].[CompanyID] AS [CompanyID], 
+    [UserStorkMatket].[StockQuantity] AS [StockQuantity], 
+    [UserStorkMatket].[StockPrice] AS [StockPrice]
+    FROM [dbo].[UserStorkMatket] AS [UserStorkMatket]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ShareMarketModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Company">
+          <Key>
+            <PropertyRef Name="CompanyID" />
+          </Key>
+          <Property Name="CompanyID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CompanyName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SectorID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Sector">
+          <Key>
+            <PropertyRef Name="SectorID" />
+          </Key>
+          <Property Name="SectorID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SectorName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SMUser">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="BankAccount">
+          <Key>
+            <PropertyRef Name="SectorID" />
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="StockQuantity" />
+            <PropertyRef Name="StockPrice" />
+            <PropertyRef Name="TotalAmount" />
+            <PropertyRef Name="PxnTypeByeSell" />
+            <PropertyRef Name="Date" />
+          </Key>
+          <Property Name="UserID" Type="Int32" />
+          <Property Name="SectorID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CompanyID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="StockQuantity" Type="Int32" Nullable="false" />
+          <Property Name="StockPrice" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="TotalAmount" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="PxnTypeByeSell" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+        </EntityType>
+        <EntityType Name="StockMarket">
+          <Key>
+            <PropertyRef Name="SectorID" />
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="StockQuantity" />
+            <PropertyRef Name="StockPrice" />
+            <PropertyRef Name="Date" />
+          </Key>
+          <Property Name="SectorID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CompanyID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="StockQuantity" Type="Int32" Nullable="false" />
+          <Property Name="StockPrice" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+        </EntityType>
+        <EntityType Name="UserStock">
+          <Key>
+            <PropertyRef Name="SectorID" />
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="StockQuantity" />
+            <PropertyRef Name="StockPrice" />
+            <PropertyRef Name="TotalAmount" />
+          </Key>
+          <Property Name="UserID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="SectorID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CompanyID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="StockQuantity" Type="Int32" Nullable="false" />
+          <Property Name="StockPrice" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="TotalAmount" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UserStorkMatket">
+          <Key>
+            <PropertyRef Name="UserID" />
+            <PropertyRef Name="SectorID" />
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="StockQuantity" />
+            <PropertyRef Name="StockPrice" />
+          </Key>
+          <Property Name="UserID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SectorID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CompanyID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="StockQuantity" Type="Int32" Nullable="false" />
+          <Property Name="StockPrice" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="ShareMarketEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Companies" EntityType="Self.Company" />
+          <EntitySet Name="Sectors" EntityType="Self.Sector" />
+          <EntitySet Name="SMUsers" EntityType="Self.SMUser" />
+          <EntitySet Name="BankAccounts" EntityType="Self.BankAccount" />
+          <EntitySet Name="StockMarkets" EntityType="Self.StockMarket" />
+          <EntitySet Name="UserStocks" EntityType="Self.UserStock" />
+          <EntitySet Name="UserStorkMatkets" EntityType="Self.UserStorkMatket" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ShareMarketModelStoreContainer" CdmEntityContainer="ShareMarketEntities">
+          <EntitySetMapping Name="Companies">
+            <EntityTypeMapping TypeName="ShareMarketModel.Company">
+              <MappingFragment StoreEntitySet="Company">
+                <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+                <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+                <ScalarProperty Name="SectorID" ColumnName="SectorID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Sectors">
+            <EntityTypeMapping TypeName="ShareMarketModel.Sector">
+              <MappingFragment StoreEntitySet="Sectors">
+                <ScalarProperty Name="SectorID" ColumnName="SectorID" />
+                <ScalarProperty Name="SectorName" ColumnName="SectorName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SMUsers">
+            <EntityTypeMapping TypeName="ShareMarketModel.SMUser">
+              <MappingFragment StoreEntitySet="SMUser">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BankAccounts">
+            <EntityTypeMapping TypeName="ShareMarketModel.BankAccount">
+              <MappingFragment StoreEntitySet="BankAccount">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="SectorID" ColumnName="SectorID" />
+                <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+                <ScalarProperty Name="StockQuantity" ColumnName="StockQuantity" />
+                <ScalarProperty Name="StockPrice" ColumnName="StockPrice" />
+                <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+                <ScalarProperty Name="PxnTypeByeSell" ColumnName="PxnTypeByeSell" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StockMarkets">
+            <EntityTypeMapping TypeName="ShareMarketModel.StockMarket">
+              <MappingFragment StoreEntitySet="StockMarket">
+                <ScalarProperty Name="SectorID" ColumnName="SectorID" />
+                <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+                <ScalarProperty Name="StockQuantity" ColumnName="StockQuantity" />
+                <ScalarProperty Name="StockPrice" ColumnName="StockPrice" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserStocks">
+            <EntityTypeMapping TypeName="ShareMarketModel.UserStock">
+              <MappingFragment StoreEntitySet="UserStock">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="SectorID" ColumnName="SectorID" />
+                <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+                <ScalarProperty Name="StockQuantity" ColumnName="StockQuantity" />
+                <ScalarProperty Name="StockPrice" ColumnName="StockPrice" />
+                <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserStorkMatkets">
+            <EntityTypeMapping TypeName="ShareMarketModel.UserStorkMatket">
+              <MappingFragment StoreEntitySet="UserStorkMatket">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="SectorID" ColumnName="SectorID" />
+                <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+                <ScalarProperty Name="StockQuantity" ColumnName="StockQuantity" />
+                <ScalarProperty Name="StockPrice" ColumnName="StockPrice" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

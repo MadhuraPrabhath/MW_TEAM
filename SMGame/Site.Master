@@ -1,0 +1,145 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <link href="Content/themes/base/jquery-ui.css" rel="stylesheet" />
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+     <link href="~/Content/cHin-Grid/cHiN-GRID.css" type="text/css" rel="stylesheet" />
+    <link href="Content/AdminLTE/AdminLTE.css" rel="stylesheet" />
+    <link href="Content/AdminLTE/skin-green.css" rel="stylesheet" />
+    <link href="Content/themes/base/jquery.ui.theme.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Content/Game.js"></script>
+    <style>
+        .sideBackground {
+            background: url('../Content/images/green-style-vector.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% auto;
+        }
+       
+
+        /*.layer {
+            background-color: rgba(0, 128, 132, 0.53);
+            /*position: absolute;
+            top: 0;
+            left: 0;*
+            width: 100%;
+            height: 100%;
+        }*/
+    </style>
+
+</head>
+    <body class="skin-green sidebar-mini hold-transition" style="padding-top:0">
+        <form runat="server">
+    <div class="wrapper">
+        <header class="main-header">
+            <!-- Logo -->
+            <a href="#" class="logo" >
+
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-mini"></span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-lg"><b>Share Market Game</b></span>
+                
+            </a>
+          
+            <!-- Header Navbar: style can be found in header.less -->
+            <nav class="navbar navbar-static-top">
+                <!-- Sidebar toggle button-->
+                <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                </a>
+
+                <!-- Navbar Right Menu -->
+                <div class="navbar-custom-menu" style="margin-top: 1%; float:none">
+
+                    
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="dropdown messages-menu">
+                            <%--<span runat="server" Id="btnLogout" class="label label-success-ssk" style="font-size: medium" onclick="btnLogout_LoggingOut"><a href="Login.aspx">LogOut</a></span>--%>
+                           <asp:Button runat="server" ID="btnLogout" Text="Logout" CssClass="btn btn-success" style="width: 90%" OnClick="btnLogout_Click"  />
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+
+
+        <!-- Left side column. contains the logo and sidebar -->
+        <aside class="main-sidebar sideBackground">
+
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+                <div class="layer">
+                    <!-- sidebar menu: : style can be found in sidebar.less -->
+                    <ul class="sidebar-menu">
+                        <li class="treeview">
+                            <a href="Home.aspx" title="Profile">
+                                <span>Profile</span>
+                            </a>
+                            
+                        </li>
+
+
+
+                        <li class="treeview">
+                            <a href="Game.aspx" title="Game" rel="">
+                                <span>Game</span>
+                            </a>
+                          
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+
+
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <section class="content-header">
+                <h1></h1>
+            </section>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <%--<section class="content">
+                @RenderBody()
+            </section>--%>
+        </div>
+
+
+            <footer class="main-footer">
+                <div class="pull-right hidden-xs">
+
+                    <!--
+                    Vertioning Mechanism
+
+                    1 Bit : Phase
+                    2 Bit : No Of release in That Phase.
+                    3 Bit : No Of CR releases in that Phase.
+                    4 bit : No of Bug Fix Releases in That Phase
+
+                    -->
+                    <b>Version</b> 1.0.0.0
+                </div>
+                <strong>&copy; 2018 - <a href="#">Develop By MW_Team</a>.</strong> All rights reserved.
+            </footer>
+        </div>
+        </form>
+</body>
+
+</html>
